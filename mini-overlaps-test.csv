@@ -1,0 +1,4 @@
+PartitionKey,RowKey,CountryCode,SWLat,SWLon,NELat,NELon
+United States,Vivian (LA),US,32.66007788,-94.1923181,33.01979012,-93.7641739
+United States,Testcity 1,US,32.66007788,-94.1923181,33.01979012,-93.7641739
+United States,Testcity 2,US,32.66007788,-94,33.01979012,-93.7641739

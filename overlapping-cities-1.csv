@@ -1,0 +1,472 @@
+MY,Cyberjaya,overlaps with,MY,Klang Valley
+MY,Cyberjaya,overlaps with,MY,Kuala Lumpur
+MY,Klang Valley,overlaps with,MY,Cyberjaya
+MY,Klang Valley,overlaps with,MY,Kuala Lumpur
+MY,Kuala Lumpur,overlaps with,MY,Cyberjaya
+MY,Kuala Lumpur,overlaps with,MY,Klang Valley
+US,Miami (FL),overlaps with,US,Miami-Fort Lauderdale (FL)
+US,Brownsville (TX),overlaps with,US,Harlingen (TX)
+MX,Reynosa,overlaps with,MX,McAllen (TX)
+US,Miami-Fort Lauderdale (FL),overlaps with,US,Miami (FL)
+US,Harlingen (TX),overlaps with,US,Brownsville (TX)
+US,McAllen (TX),overlaps with,US,Reynosa
+IN,Gurgaon,overlaps with,IN,Noida
+IN,Gurgaon,overlaps with,IN,New Delhi
+IN,Noida,overlaps with,IN,Gurgaon
+IN,Noida,overlaps with,IN,New Delhi
+IN,New Delhi,overlaps with,IN,Gurgaon
+IN,New Delhi,overlaps with,IN,Noida
+CN,Suzhou,overlaps with,CN,Wuxi
+CN,Wuxi,overlaps with,CN,Suzhou
+CN,Wuxi,overlaps with,CN,Changzhou
+MX,Ciudad Juarez,overlaps with,MX,El Paso (TX)
+US,El Paso (TX),overlaps with,US,Ciudad Juarez
+CN,Changzhou,overlaps with,CN,Wuxi
+US,Shreveport (LA),overlaps with,US,Vivian (LA)
+MX,Tijuana,overlaps with,MX,Tecate
+MX,Tijuana,overlaps with,MX,San Diego (CA)
+MX,Tecate,overlaps with,MX,Tijuana
+US,San Diego (CA),overlaps with,US,Tijuana
+US,Vivian (LA),overlaps with,US,Shreveport (LA)
+JP,Osaka,overlaps with,JP,Kobe
+JP,Kobe,overlaps with,JP,Osaka
+US,Memphis (TN),overlaps with,US,West Memphis (AR)
+US,West Memphis (AR),overlaps with,US,Memphis (TN)
+JP,Yokohama,overlaps with,JP,Tokyo
+JP,Tokyo,overlaps with,JP,Yokohama
+US,Raleigh (NC),overlaps with,US,Raleigh-Durham (NC)
+US,Raleigh-Durham (NC),overlaps with,US,Raleigh (NC)
+US,Wytheville (VA),overlaps with,US,Bluefield (WV)
+US,Bluefield (WV),overlaps with,US,Wytheville (VA)
+US,Owensboro (KY),overlaps with,US,Evansville (IN)
+US,Evansville (IN),overlaps with,US,Owensboro (KY)
+US,Huntington (WV),overlaps with,US,Ashland (KY)
+TR,Izmir,overlaps with,TR,Manisa
+US,Ashland (KY),overlaps with,US,Huntington (WV)
+US,Ashland (KY),overlaps with,US,Portsmouth (OH)
+TR,Manisa,overlaps with,TR,Izmir
+US,Portsmouth (OH),overlaps with,US,Ashland (KY)
+US,Fairfax (VA),overlaps with,US,Washington D.C.
+US,Fairfax (VA),overlaps with,US,Rockville (MD)
+US,Washington D.C.,overlaps with,US,Fairfax (VA)
+US,Washington D.C.,overlaps with,US,Rockville (MD)
+US,Rockville (MD),overlaps with,US,Fairfax (VA)
+US,Rockville (MD),overlaps with,US,Washington D.C.
+US,Wilmington (DE),overlaps with,US,Philadelphia (PA)
+US,Philadelphia (PA),overlaps with,US,Wilmington (DE)
+US,Muncie (IN),overlaps with,US,Marion (IN)
+US,Marion (IN),overlaps with,US,Muncie (IN)
+US,New York City (NY),overlaps with,US,White Plains (NY)
+US,White Plains (NY),overlaps with,US,New York City (NY)
+US,White Plains (NY),overlaps with,US,Northern New Jersey (NJ)
+US,Northern New Jersey (NJ),overlaps with,US,White Plains (NY)
+US,South Bend (IN),overlaps with,US,Elkhart (IN)
+US,Elkhart (IN),overlaps with,US,South Bend (IN)
+US,Elkhart (IN),overlaps with,US,Three Rivers (MI)
+US,Three Rivers (MI),overlaps with,US,Elkhart (IN)
+CA,Windsor,overlaps with,CA,Detroit (MI)
+US,Detroit (MI),overlaps with,US,Windsor
+US,Buffalo (NY),overlaps with,US,St. Catharines-Niagara
+CA,St. Catharines-Niagara,overlaps with,CA,Buffalo (NY)
+CA,Brantford,overlaps with,CA,Hamilton
+CA,Brantford,overlaps with,CA,Kitchener
+CA,Brantford,overlaps with,CA,Guelph
+CA,Brantford,overlaps with,CA,Waterloo
+CA,Hamilton,overlaps with,CA,Brantford
+CA,Hamilton,overlaps with,CA,Guelph
+CA,Kitchener,overlaps with,CA,Brantford
+CA,Kitchener,overlaps with,CA,Guelph
+CA,Kitchener,overlaps with,CA,Waterloo
+CA,Guelph,overlaps with,CA,Brantford
+CA,Guelph,overlaps with,CA,Hamilton
+CA,Guelph,overlaps with,CA,Kitchener
+CA,Guelph,overlaps with,CA,Waterloo
+CA,Waterloo,overlaps with,CA,Brantford
+CA,Waterloo,overlaps with,CA,Kitchener
+CA,Waterloo,overlaps with,CA,Guelph
+CA,Mississauga,overlaps with,CA,Toronto
+CA,Toronto,overlaps with,CA,Mississauga
+US,Minneapolis (MN),overlaps with,US,Minneapolis-St.Paul (MN)
+US,Minneapolis-St.Paul (MN),overlaps with,US,Minneapolis (MN)
+CA,Ottawa,overlaps with,CA,Ottawa-Gatineau
+CA,Ottawa-Gatineau,overlaps with,CA,Ottawa
+CH,Zug,overlaps with,CH,Zurich
+CH,Zurich,overlaps with,CH,Zug
+DE,Darmstadt,overlaps with,DE,Mainz
+DE,Darmstadt,overlaps with,DE,Frankfurt
+DE,Mainz,overlaps with,DE,Darmstadt
+DE,Mainz,overlaps with,DE,Frankfurt
+DE,Frankfurt,overlaps with,DE,Darmstadt
+DE,Frankfurt,overlaps with,DE,Mainz
+PL,Katowice,overlaps with,PL,Gliwice
+PL,Gliwice,overlaps with,PL,Katowice
+BE,Liege,overlaps with,BE,Maastricht
+DE,Bonn,overlaps with,DE,Cologne
+GB,Bournemouth,overlaps with,GB,Southampton
+GB,Bournemouth,overlaps with,GB,Winchester
+GB,Bournemouth,overlaps with,GB,Salisbury
+GB,Chichester,overlaps with,GB,Portsmouth
+GB,Chichester,overlaps with,GB,Southampton
+GB,Chichester,overlaps with,GB,Winchester
+GB,Portsmouth,overlaps with,GB,Chichester
+GB,Portsmouth,overlaps with,GB,Southampton
+GB,Portsmouth,overlaps with,GB,Winchester
+BE,Brussels,overlaps with,BE,Antwerp
+NL,Maastricht,overlaps with,NL,Liege
+GB,Southampton,overlaps with,GB,Bournemouth
+GB,Southampton,overlaps with,GB,Chichester
+GB,Southampton,overlaps with,GB,Portsmouth
+GB,Southampton,overlaps with,GB,Winchester
+GB,Southampton,overlaps with,GB,Salisbury
+DE,Cologne,overlaps with,DE,Bonn
+DE,Cologne,overlaps with,DE,Dusseldorf
+GB,Winchester,overlaps with,GB,Bournemouth
+GB,Winchester,overlaps with,GB,Chichester
+GB,Winchester,overlaps with,GB,Portsmouth
+GB,Winchester,overlaps with,GB,Southampton
+GB,Winchester,overlaps with,GB,Salisbury
+GB,Winchester,overlaps with,GB,Bracknell
+GB,Salisbury,overlaps with,GB,Bournemouth
+GB,Salisbury,overlaps with,GB,Southampton
+GB,Salisbury,overlaps with,GB,Winchester
+GB,Salisbury,overlaps with,GB,Bath
+BE,Antwerp,overlaps with,BE,Brussels
+BE,Antwerp,overlaps with,BE,Tilburg
+DE,Dusseldorf,overlaps with,DE,Cologne
+GB,Bath,overlaps with,GB,Salisbury
+GB,Bath,overlaps with,GB,Bristol
+GB,Bath,overlaps with,GB,Newport
+GB,Bracknell,overlaps with,GB,Winchester
+GB,Bracknell,overlaps with,GB,Reading
+GB,Bracknell,overlaps with,GB,Slough
+GB,Bracknell,overlaps with,GB,St Albans
+GB,Bracknell,overlaps with,GB,Hemel Hempstead
+GB,Sheerness,overlaps with,GB,Chelmsford
+GB,Reading,overlaps with,GB,Bracknell
+GB,Reading,overlaps with,GB,Slough
+GB,Reading,overlaps with,GB,Hemel Hempstead
+GB,Reading,overlaps with,GB,Oxford
+NL,Eindhoven,overlaps with,NL,Tilburg
+NL,Eindhoven,overlaps with,NL,s-Hertogenbosch
+GB,Slough,overlaps with,GB,Bracknell
+GB,Slough,overlaps with,GB,Reading
+GB,Slough,overlaps with,GB,London
+GB,Slough,overlaps with,GB,St Albans
+GB,Slough,overlaps with,GB,Hemel Hempstead
+GB,South Wales Valleys,overlaps with,GB,Bridgend
+GB,South Wales Valleys,overlaps with,GB,Cardiff
+GB,South Wales Valleys,overlaps with,GB,Newport
+GB,Bristol,overlaps with,GB,Bath
+GB,Bristol,overlaps with,GB,Cardiff
+GB,Bristol,overlaps with,GB,Newport
+GB,Bristol,overlaps with,GB,Gloucester
+GB,Bridgend,overlaps with,GB,South Wales Valleys
+GB,Bridgend,overlaps with,GB,Cardiff
+GB,Bridgend,overlaps with,GB,Swansea
+GB,Cardiff,overlaps with,GB,South Wales Valleys
+GB,Cardiff,overlaps with,GB,Bristol
+GB,Cardiff,overlaps with,GB,Bridgend
+GB,Cardiff,overlaps with,GB,Newport
+GB,London,overlaps with,GB,Slough
+GB,London,overlaps with,GB,St Albans
+GB,London,overlaps with,GB,Hemel Hempstead
+NL,Tilburg,overlaps with,NL,Antwerp
+NL,Tilburg,overlaps with,NL,Eindhoven
+NL,Tilburg,overlaps with,NL,Breda
+NL,Tilburg,overlaps with,NL,s-Hertogenbosch
+NL,Tilburg,overlaps with,NL,Rotterdam
+GB,Newport,overlaps with,GB,Bath
+GB,Newport,overlaps with,GB,South Wales Valleys
+GB,Newport,overlaps with,GB,Bristol
+GB,Newport,overlaps with,GB,Cardiff
+NL,Breda,overlaps with,NL,Tilburg
+NL,Breda,overlaps with,NL,Rotterdam
+GB,Swansea,overlaps with,GB,Bridgend
+NL,s-Hertogenbosch,overlaps with,NL,Eindhoven
+NL,s-Hertogenbosch,overlaps with,NL,Tilburg
+GB,St Albans,overlaps with,GB,Bracknell
+GB,St Albans,overlaps with,GB,Slough
+GB,St Albans,overlaps with,GB,London
+GB,St Albans,overlaps with,GB,Hemel Hempstead
+GB,St Albans,overlaps with,GB,Luton
+GB,St Albans,overlaps with,GB,Milton Keynes
+GB,Chelmsford,overlaps with,GB,Sheerness
+GB,Chelmsford,overlaps with,GB,Colchester
+GB,Hemel Hempstead,overlaps with,GB,Bracknell
+GB,Hemel Hempstead,overlaps with,GB,Reading
+GB,Hemel Hempstead,overlaps with,GB,Slough
+GB,Hemel Hempstead,overlaps with,GB,London
+GB,Hemel Hempstead,overlaps with,GB,St Albans
+GB,Hemel Hempstead,overlaps with,GB,Luton
+GB,Hemel Hempstead,overlaps with,GB,Milton Keynes
+GB,Oxford,overlaps with,GB,Reading
+GB,Oxford,overlaps with,GB,Milton Keynes
+GB,Gloucester,overlaps with,GB,Bristol
+GB,Colchester,overlaps with,GB,Chelmsford
+GB,Colchester,overlaps with,GB,Harwich
+GB,Colchester,overlaps with,GB,Ipswich
+NL,Rotterdam,overlaps with,NL,Tilburg
+NL,Rotterdam,overlaps with,NL,Breda
+NL,Rotterdam,overlaps with,NL,The Hague
+NL,Rotterdam,overlaps with,NL,Utrecht
+GB,Luton,overlaps with,GB,St Albans
+GB,Luton,overlaps with,GB,Hemel Hempstead
+GB,Luton,overlaps with,GB,Milton Keynes
+GB,Luton,overlaps with,GB,Cambridge
+GB,Luton,overlaps with,GB,Northampton
+GB,Harwich,overlaps with,GB,Colchester
+GB,Harwich,overlaps with,GB,Ipswich
+GB,Milton Keynes,overlaps with,GB,St Albans
+GB,Milton Keynes,overlaps with,GB,Hemel Hempstead
+GB,Milton Keynes,overlaps with,GB,Oxford
+GB,Milton Keynes,overlaps with,GB,Luton
+GB,Milton Keynes,overlaps with,GB,Northampton
+GB,Ipswich,overlaps with,GB,Colchester
+GB,Ipswich,overlaps with,GB,Harwich
+NL,The Hague,overlaps with,NL,Rotterdam
+NL,Utrecht,overlaps with,NL,Rotterdam
+NL,Utrecht,overlaps with,NL,Amsterdam
+GB,Worcester,overlaps with,GB,Birmingham
+GB,Worcester,overlaps with,GB,Sandwell
+GB,Worcester,overlaps with,GB,Dudley
+GB,Worcester,overlaps with,GB,Wolverhampton
+GB,Cambridge,overlaps with,GB,Luton
+GB,Northampton,overlaps with,GB,Luton
+GB,Northampton,overlaps with,GB,Milton Keynes
+GB,Northampton,overlaps with,GB,Peterborough
+NL,Amsterdam,overlaps with,NL,Utrecht
+GB,Lowestoft,overlaps with,GB,Great Yarmouth
+GB,Lowestoft,overlaps with,GB,Norwich
+GB,Coventry,overlaps with,GB,Birmingham
+GB,Coventry,overlaps with,GB,Sandwell
+GB,Coventry,overlaps with,GB,Dudley
+GB,Coventry,overlaps with,GB,Walsall
+GB,Coventry,overlaps with,GB,Leicester
+GB,Coventry,overlaps with,GB,Lichfield
+GB,Birmingham,overlaps with,GB,Worcester
+GB,Birmingham,overlaps with,GB,Coventry
+GB,Birmingham,overlaps with,GB,Sandwell
+GB,Birmingham,overlaps with,GB,Dudley
+GB,Birmingham,overlaps with,GB,Wolverhampton
+GB,Birmingham,overlaps with,GB,Walsall
+GB,Birmingham,overlaps with,GB,Lichfield
+GB,Sandwell,overlaps with,GB,Worcester
+GB,Sandwell,overlaps with,GB,Coventry
+GB,Sandwell,overlaps with,GB,Birmingham
+GB,Sandwell,overlaps with,GB,Dudley
+GB,Sandwell,overlaps with,GB,Wolverhampton
+GB,Sandwell,overlaps with,GB,Walsall
+GB,Sandwell,overlaps with,GB,Lichfield
+GB,Mid Wales,overlaps with,GB,Shrewsbury
+GB,Dudley,overlaps with,GB,Worcester
+GB,Dudley,overlaps with,GB,Coventry
+GB,Dudley,overlaps with,GB,Birmingham
+GB,Dudley,overlaps with,GB,Sandwell
+GB,Dudley,overlaps with,GB,Wolverhampton
+GB,Dudley,overlaps with,GB,Walsall
+GB,Dudley,overlaps with,GB,Lichfield
+GB,Great Yarmouth,overlaps with,GB,Lowestoft
+GB,Great Yarmouth,overlaps with,GB,Norwich
+GB,Wolverhampton,overlaps with,GB,Worcester
+GB,Wolverhampton,overlaps with,GB,Birmingham
+GB,Wolverhampton,overlaps with,GB,Sandwell
+GB,Wolverhampton,overlaps with,GB,Dudley
+GB,Wolverhampton,overlaps with,GB,Walsall
+GB,Wolverhampton,overlaps with,GB,Lichfield
+GB,Peterborough,overlaps with,GB,Northampton
+GB,Walsall,overlaps with,GB,Coventry
+GB,Walsall,overlaps with,GB,Birmingham
+GB,Walsall,overlaps with,GB,Sandwell
+GB,Walsall,overlaps with,GB,Dudley
+GB,Walsall,overlaps with,GB,Wolverhampton
+GB,Walsall,overlaps with,GB,Lichfield
+GB,Walsall,overlaps with,GB,Derby
+GB,Norwich,overlaps with,GB,Lowestoft
+GB,Norwich,overlaps with,GB,Great Yarmouth
+GB,Leicester,overlaps with,GB,Coventry
+GB,Leicester,overlaps with,GB,Derby
+GB,Leicester,overlaps with,GB,Nottingham
+GB,Lichfield,overlaps with,GB,Coventry
+GB,Lichfield,overlaps with,GB,Birmingham
+GB,Lichfield,overlaps with,GB,Sandwell
+GB,Lichfield,overlaps with,GB,Dudley
+GB,Lichfield,overlaps with,GB,Wolverhampton
+GB,Lichfield,overlaps with,GB,Walsall
+GB,Lichfield,overlaps with,GB,Derby
+GB,Lichfield,overlaps with,GB,Stoke
+GB,Shrewsbury,overlaps with,GB,Mid Wales
+GB,Shrewsbury,overlaps with,GB,Wrexham
+GB,Derby,overlaps with,GB,Walsall
+GB,Derby,overlaps with,GB,Leicester
+GB,Derby,overlaps with,GB,Lichfield
+GB,Derby,overlaps with,GB,Nottingham
+GB,Stoke,overlaps with,GB,Lichfield
+GB,Nottingham,overlaps with,GB,Leicester
+GB,Nottingham,overlaps with,GB,Derby
+GB,Nottingham,overlaps with,GB,Lincoln
+GB,Wrexham,overlaps with,GB,Shrewsbury
+GB,Wrexham,overlaps with,GB,Chester
+GB,Wrexham,overlaps with,GB,Flintshire
+GB,Wrexham,overlaps with,GB,Liverpool
+GB,Wrexham,overlaps with,GB,Warrington
+GB,Chester,overlaps with,GB,Wrexham
+GB,Chester,overlaps with,GB,Flintshire
+GB,Chester,overlaps with,GB,Liverpool
+GB,Chester,overlaps with,GB,Warrington
+GB,Lincoln,overlaps with,GB,Nottingham
+GB,Lincoln,overlaps with,GB,Grimsby
+GB,Flintshire,overlaps with,GB,Wrexham
+GB,Flintshire,overlaps with,GB,Chester
+GB,Flintshire,overlaps with,GB,Liverpool
+GB,Flintshire,overlaps with,GB,Warrington
+GB,Flintshire,overlaps with,GB,Wigan
+GB,Stockport,overlaps with,GB,Warrington
+GB,Stockport,overlaps with,GB,Manchester
+GB,Stockport,overlaps with,GB,Wigan
+GB,Stockport,overlaps with,GB,Kirklees
+GB,Stockport,overlaps with,GB,Halifax
+GB,Liverpool,overlaps with,GB,Wrexham
+GB,Liverpool,overlaps with,GB,Chester
+GB,Liverpool,overlaps with,GB,Flintshire
+GB,Liverpool,overlaps with,GB,Warrington
+GB,Liverpool,overlaps with,GB,Wigan
+GB,Warrington,overlaps with,GB,Wrexham
+GB,Warrington,overlaps with,GB,Chester
+GB,Warrington,overlaps with,GB,Flintshire
+GB,Warrington,overlaps with,GB,Stockport
+GB,Warrington,overlaps with,GB,Liverpool
+GB,Warrington,overlaps with,GB,Manchester
+GB,Warrington,overlaps with,GB,Wigan
+GB,Warrington,overlaps with,GB,Preston
+GB,Rotherham,overlaps with,GB,Sheffield
+GB,Rotherham,overlaps with,GB,Doncaster
+GB,Rotherham,overlaps with,GB,Kirklees
+GB,Rotherham,overlaps with,GB,Wakefield
+GB,Rotherham,overlaps with,GB,Bradford
+GB,Rotherham,overlaps with,GB,Leeds
+GB,Sheffield,overlaps with,GB,Rotherham
+GB,Sheffield,overlaps with,GB,Doncaster
+GB,Sheffield,overlaps with,GB,Kirklees
+GB,Sheffield,overlaps with,GB,Wakefield
+GB,Sheffield,overlaps with,GB,Halifax
+GB,Sheffield,overlaps with,GB,Bradford
+GB,Sheffield,overlaps with,GB,Leeds
+GB,Manchester,overlaps with,GB,Stockport
+GB,Manchester,overlaps with,GB,Warrington
+GB,Manchester,overlaps with,GB,Wigan
+GB,Manchester,overlaps with,GB,Kirklees
+GB,Manchester,overlaps with,GB,Halifax
+GB,Manchester,overlaps with,GB,Bradford
+GB,Manchester,overlaps with,GB,Preston
+GB,Grimsby,overlaps with,GB,Lincoln
+GB,Grimsby,overlaps with,GB,Immingham
+GB,Grimsby,overlaps with,GB,Kingston Upon Hull
+GB,Wigan,overlaps with,GB,Flintshire
+GB,Wigan,overlaps with,GB,Stockport
+GB,Wigan,overlaps with,GB,Liverpool
+GB,Wigan,overlaps with,GB,Warrington
+GB,Wigan,overlaps with,GB,Manchester
+GB,Wigan,overlaps with,GB,Preston
+GB,Doncaster,overlaps with,GB,Rotherham
+GB,Doncaster,overlaps with,GB,Sheffield
+GB,Doncaster,overlaps with,GB,Wakefield
+GB,Doncaster,overlaps with,GB,Leeds
+DE,Bremerhaven,overlaps with,DE,Cuxhaven
+GB,Kirklees,overlaps with,GB,Stockport
+GB,Kirklees,overlaps with,GB,Rotherham
+GB,Kirklees,overlaps with,GB,Sheffield
+GB,Kirklees,overlaps with,GB,Manchester
+GB,Kirklees,overlaps with,GB,Wakefield
+GB,Kirklees,overlaps with,GB,Halifax
+GB,Kirklees,overlaps with,GB,Bradford
+GB,Kirklees,overlaps with,GB,Leeds
+GB,Immingham,overlaps with,GB,Grimsby
+GB,Immingham,overlaps with,GB,Kingston Upon Hull
+GB,Wakefield,overlaps with,GB,Rotherham
+GB,Wakefield,overlaps with,GB,Sheffield
+GB,Wakefield,overlaps with,GB,Doncaster
+GB,Wakefield,overlaps with,GB,Kirklees
+GB,Wakefield,overlaps with,GB,Halifax
+GB,Wakefield,overlaps with,GB,Bradford
+GB,Wakefield,overlaps with,GB,Leeds
+GB,Wakefield,overlaps with,GB,York
+GB,Halifax,overlaps with,GB,Stockport
+GB,Halifax,overlaps with,GB,Sheffield
+GB,Halifax,overlaps with,GB,Manchester
+GB,Halifax,overlaps with,GB,Kirklees
+GB,Halifax,overlaps with,GB,Wakefield
+GB,Halifax,overlaps with,GB,Bradford
+GB,Halifax,overlaps with,GB,Leeds
+GB,Bradford,overlaps with,GB,Rotherham
+GB,Bradford,overlaps with,GB,Sheffield
+GB,Bradford,overlaps with,GB,Manchester
+GB,Bradford,overlaps with,GB,Kirklees
+GB,Bradford,overlaps with,GB,Wakefield
+GB,Bradford,overlaps with,GB,Halifax
+GB,Bradford,overlaps with,GB,Leeds
+GB,Leeds,overlaps with,GB,Rotherham
+GB,Leeds,overlaps with,GB,Sheffield
+GB,Leeds,overlaps with,GB,Doncaster
+GB,Leeds,overlaps with,GB,Kirklees
+GB,Leeds,overlaps with,GB,Wakefield
+GB,Leeds,overlaps with,GB,Halifax
+GB,Leeds,overlaps with,GB,Bradford
+GB,Leeds,overlaps with,GB,York
+GB,Preston,overlaps with,GB,Warrington
+GB,Preston,overlaps with,GB,Manchester
+GB,Preston,overlaps with,GB,Wigan
+GB,Preston,overlaps with,GB,Lancaster
+GB,Kingston Upon Hull,overlaps with,GB,Grimsby
+GB,Kingston Upon Hull,overlaps with,GB,Immingham
+DE,Cuxhaven,overlaps with,DE,Bremerhaven
+GB,York,overlaps with,GB,Wakefield
+GB,York,overlaps with,GB,Leeds
+GB,Lancaster,overlaps with,GB,Preston
+GB,Middlesbrough,overlaps with,GB,Hartlepool
+GB,Middlesbrough,overlaps with,GB,Durham
+GB,Middlesbrough,overlaps with,GB,Sunderland
+GB,Hartlepool,overlaps with,GB,Middlesbrough
+GB,Hartlepool,overlaps with,GB,Durham
+GB,Hartlepool,overlaps with,GB,Sunderland
+GB,Hartlepool,overlaps with,GB,Gateshead
+GB,Durham,overlaps with,GB,Middlesbrough
+GB,Durham,overlaps with,GB,Hartlepool
+GB,Durham,overlaps with,GB,Sunderland
+GB,Durham,overlaps with,GB,Gateshead
+GB,Durham,overlaps with,GB,Newcastle
+GB,Sunderland,overlaps with,GB,Middlesbrough
+GB,Sunderland,overlaps with,GB,Hartlepool
+GB,Sunderland,overlaps with,GB,Durham
+GB,Sunderland,overlaps with,GB,Gateshead
+GB,Sunderland,overlaps with,GB,Newcastle
+GB,Gateshead,overlaps with,GB,Hartlepool
+GB,Gateshead,overlaps with,GB,Durham
+GB,Gateshead,overlaps with,GB,Sunderland
+GB,Gateshead,overlaps with,GB,Newcastle
+GB,Newcastle,overlaps with,GB,Durham
+GB,Newcastle,overlaps with,GB,Sunderland
+GB,Newcastle,overlaps with,GB,Gateshead
+SE,Malmo,overlaps with,SE,Malmo-Lund
+SE,Malmo,overlaps with,SE,Copenhagen
+SE,Malmo-Lund,overlaps with,SE,Malmo
+SE,Malmo-Lund,overlaps with,SE,Copenhagen
+DK,Copenhagen,overlaps with,DK,Malmo
+DK,Copenhagen,overlaps with,DK,Malmo-Lund
+GB,Glasgow,overlaps with,GB,Scottish Central Belt
+GB,Scottish Central Belt,overlaps with,GB,Glasgow
+GB,Scottish Central Belt,overlaps with,GB,Edinburgh Science Triangle
+GB,Scottish Central Belt,overlaps with,GB,Edinburgh
+GB,Scottish Central Belt,overlaps with,GB,Fife
+GB,Edinburgh Science Triangle,overlaps with,GB,Scottish Central Belt
+GB,Edinburgh Science Triangle,overlaps with,GB,Edinburgh
+GB,Edinburgh Science Triangle,overlaps with,GB,Fife
+GB,Edinburgh,overlaps with,GB,Scottish Central Belt
+GB,Edinburgh,overlaps with,GB,Edinburgh Science Triangle
+GB,Edinburgh,overlaps with,GB,Fife
+GB,Fife,overlaps with,GB,Scottish Central Belt
+GB,Fife,overlaps with,GB,Edinburgh Science Triangle
+GB,Fife,overlaps with,GB,Edinburgh
+GB,Fife,overlaps with,GB,Dundee
+GB,Dundee,overlaps with,GB,Fife
+FI,Espoo,overlaps with,FI,Helsinki
+FI,Helsinki,overlaps with,FI,Espoo
