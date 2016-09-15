@@ -1,7 +1,11 @@
 import csv
 
 RUN_FILE = 'cities.csv'  # this is a test file
-RESULTS_FILE = 'overlapping-cities.csv'
+CITY_FILE = 'worldcitiespop.txt'
+MERGED_CITIES_FILE = 'merged_cities.csv'
+ERROR_CITIES_FILE = 'error_cities_file.csv'
+GOOD_CITIES_FILE = 'good_cities.csv'
+BAD_CITIES_FILE = 'bad_cities.csv'
 print(RUN_FILE)
 
 
@@ -13,6 +17,7 @@ def save_results(raw_file, results):
     f.close()
     return
 
+
 def parse(raw_file, delimiter):
     """
     :param raw_file: probably csv file
@@ -21,7 +26,7 @@ def parse(raw_file, delimiter):
     Parses a raw CSV file to a JSON-line object.
     """
     #  open csv file
-    opened_file = open(raw_file)
+    opened_file = open(raw_file, encoding="Latin-1")
     #  read csv file
     csv_data = csv.reader(opened_file, delimiter=delimiter)  # first delimiter is csv.reader variable name
     #  csv_data object is now an iterator meaning we can get each element one at a time
@@ -42,51 +47,62 @@ def parse(raw_file, delimiter):
     return parsed_data
 
 
-def overlap(r1, r2):
-    # Overlapping rectangles overlap both horizontally & vertically
-    inside_right = float(r1['SW_Lon']) <= float(r2['NE_Lon'])
-    outside_left = float(r1['NE_Lon']) >= float(r2['SW_Lon'])
-    under_top = float(r1['SW_Lat']) <= float(r2['NE_Lat'])
-    above_bottom = float(r1['NE_Lat']) >= float(r2['SW_Lat'])
-    h_overlaps = inside_right and outside_left
-    v_overlaps = under_top and above_bottom
-    return h_overlaps and v_overlaps
+def check_cities(city_data, world_cities):
+    our_cities = city_data
+    world_cities = world_cities
+    merged_cities = []
+    error_cities = []
+    error_count = 0
+    success_count = 0
+    errors_changed = 0
+    cities_tested = 0
+    for city1 in our_cities:
+        cities_tested += 1
+        for city2 in world_cities:
+            if city1['RowKey'].lower() == city2['City'].lower() and city1['CountryCode'].lower() == city2['Country'].lower():
+                city_info = [city1['RowKey'], city1['PartitionKey'], city1['CountryCode'], city2['City'], city2['Country']]
+                merged_cities.append(city_info)
+                success_count += 1
+                if cities_tested - success_count != errors_changed:  # record error city
+                    error_cities.append(city_info)
+                    errors_changed = cities_tested - success_count
+                    print('error found')
+
+    print('potential errors found', success_count - error_count)
+    return merged_cities, error_cities
 
 
-def find_overlaps(city_data):
-    list1 = city_data
-    list2 = city_data
-    overlapping_cities = []
-    overlap_count = 0
-    for city1 in list1:
-        # print(city1)
-        for city2 in list2:
-            #  print(city2)
-            if city1['RowKey'] != city2['RowKey']:
-                overlap_result = overlap(city1, city2)
-                if overlap_result:
-                    overlap_count += 1
-                    overlapping_cities.append([city1, city2])
-    print('net overlaps found;', overlap_count/2)
-    return overlapping_cities
+def find_bad_cities(city_data, good_city):
+    our_cities = city_data
+    good_cities = good_city
+    bad_cities = []
+    city_status = 'bad'
+    for city1 in our_cities:
+        city_status = 'bad'
+        for city2 in good_cities:
+            if city1['RowKey'].lower() == city2['City'].lower() and city1['CountryCode'].lower() == city2['Country'].lower():
+                city_status = 'good'
+                break
+        if city_status == 'bad':
+                city_info = [city1['RowKey'], city1['PartitionKey'], city1['CountryCode'], city2['City'], city2['Country']]
+                bad_cities.append(city_info)
+    return bad_cities
 
 
 def main():
     # Call our parse function with required file an delimiter
     city_data = parse(RUN_FILE, ',')
     #  print(city_data)
-    print("keys are:", city_data[0].keys())
-    r1 = city_data[1]
-    r2 = city_data[2]
-    print('The result for r1[RowKey] and r2[RowKey] is: ', overlap(r1, r2))
-    overlaps = find_overlaps(city_data)
+    print("keys for our city data are:", city_data[0].keys())
+    #  world_cities = parse(CITY_FILE, ',')
+    #  print("keys for world cities are: ", world_cities[0].keys())
+    good_cities = parse(GOOD_CITIES_FILE, ',')
     #  print(overlaps)
-    results = []
-    for city_pair in overlaps:
-        result = city_pair[0]['CountryCode'], city_pair[0]['RowKey'], 'overlaps with', city_pair[0]['CountryCode'], city_pair[1]['RowKey']
-        results.append(result)
-    print(results)
-    save_results(RESULTS_FILE, results)
+    #  merged_cities, error_cities = check_cities(city_data, world_cities)
+    bad_cities = find_bad_cities(city_data, good_cities)
+    #  save_results(MERGED_CITIES_FILE, merged_cities)
+    #  save_results(ERROR_CITIES_FILE, error_cities)
+    save_results(BAD_CITIES_FILE, bad_cities)
 
 if __name__ == "__main__":
     main()
